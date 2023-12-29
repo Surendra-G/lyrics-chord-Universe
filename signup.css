@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background-image: url('loginphoto.jpg');
+    background-size: 1500px 800px;
+    background-repeat: no-repeat;
+}
+
+.sign-up-form{
+    width: 350px;
+    height: 560px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 3.5% auto 0;
+    text-align: center;
+    font-family: Montserrat;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 93%;
+    border: 1px solid #999; 
+    outline: none;
+    font-family: Montserrat;
+}
+.sign-up-btn1{
+    position: absolute;
+    top: 470px;
+    left: 39.35%;
+    right: 0;
+    bottom: 0;
+    background-color: #1c8adb;
+    color: #FFf;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 18px;
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration: none;
+}   
+hr{
+    margin-top: 120px;
+    width: 80%;
+}
+.or{    
+    position: relative;
+    top: -31px;
+    left: -0.2%;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    width: 30px;
+    margin: 19px auto 5px;
+} 
+.sign-up-btn{
+    position: absolute;
+    top: 600px;
+    left: 39.35%;
+    right: 0;
+    bottom: 0;
+    background-color: #1c8adb;
+    color: #FFf;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 18px;
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img1{
+    width: 70px;
+    margin-top: -10px;
+    border-radius: 100px;
+}
+.img2{
+    position: absolute;
+    top: 607px;
+    left: 42%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    border-radius: 50px;
+}

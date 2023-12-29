@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    margin: 0;
+    width: 100%;
+    height: 118px;
+    background-color: black ;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.navbar{
+    padding-left: 10%;
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0%;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.8s;
+    
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    
+}
+.login{
+    margin-left: auto;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+.login:hover{
+    background-color: #70BDC2;
+    width: 70px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.LCULogo{
+    position: absolute;
+    top: 210px;
+    left: 70%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    border-radius: 20px;
+    border-style:dotted;
+    border-color: #3AAFA9;
+
+}
+.AU{
+    position: absolute;
+    top: 140px;
+    left: 8%;
+    right: 0;
+    bottom: 0;
+    width: 97.4%;
+    height: 45px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #000;
+    text-decoration: underline;
+}
+.LCU{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 200px;
+    left: 8%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    font-family: cursive;
+    font-size: 19.5px; 
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: justify;
+}
+.uni{
+    position: absolute;
+    top: 505px;
+    left: 74.9%;
+    right: 0;
+    bottom: 0;
+    width: 28%;
+    height: 45px;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    
+}
+.lc{
+    position: absolute;
+    top: 470px;
+    left: 71%;
+    right: 0;
+    bottom: 0;
+    width: 27%;
+    height: 45px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #d6e2e2;
+    margin-top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+
+
+}
+.footercontainer{
+    position: relative;
+    padding: 70px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFFBFB;
+    border-radius: 50%;
+    transition: 0.3s,ease;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+
+}
+.socialicons a:hover{
+    background-color: #111;
+    padding-left: 10px;
+    transition: 0.3s;
+    
+}
+.socialicons a i:hover{
+    color: #FFFBFB;
+    transition: 0.3s;
+}
+.footernav{
+    margin: 30px 0px;
+}
+.footernav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.footernav ul li a{
+    color: #111;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.6;
+    transition: 0.5s;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.footerbottom{
+    background-color: #D9D9D9;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: #000;
+    font-family: Montserrat;
+     
+}
